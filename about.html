@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="about.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <!-- <h1>Heyy Im working</h1> -->
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">Home</a>
+                    <a href="">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="">Portfolio</a>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="left-col">
+                <h1>THE<br>REAL<br>SOUND</h1>
+            </div>
+            <div class="right-col">
+                <p>Click Here To Listen</p>
+                <img src="/images/play.png" id="icon">
+            </div>
+        </div>
+
+        <section>
+          <a href="/media/song.mp3" download="media.mp3">Download this Song<span></span></a>
+        </section>
+
+        <audio id="mySong">
+            <!-- <source media="(min-width: )" srcset=""> -->
+                <source src="/media/song.mp3" type="audio/mp3" autoplay>
+        </audio>
+    <script src="main.js"></script>
+  </div>
+  
+</body>
+</html>
